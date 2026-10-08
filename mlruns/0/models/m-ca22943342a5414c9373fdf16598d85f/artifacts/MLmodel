@@ -1,0 +1,23 @@
+artifact_path: file:///H:/Metaverse/MLP_E2E/Red/Naveen-Red-wine-quality-predictor/mlruns/0/models/m-ca22943342a5414c9373fdf16598d85f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.5
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.17.0
+model_id: m-ca22943342a5414c9373fdf16598d85f
+model_size_bytes: 11281
+model_uuid: m-ca22943342a5414c9373fdf16598d85f
+prompts: null
+run_id: 8097b21d79f7441ea9c25a425711f714
+utc_time_created: '2026-10-08 16:41:24.227772'
